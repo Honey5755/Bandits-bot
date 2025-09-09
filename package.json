@@ -1,0 +1,19 @@
+{
+  "name": "bandits-bot",
+  "version": "1.0.0",
+  "description": "Bandits \u2014 a Discord moderation bot (mute, ban, kick, softban, purge).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node commands/register-commands.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
